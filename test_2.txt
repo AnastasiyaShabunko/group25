@@ -1,0 +1,5 @@
+<xml>
+<name>Nastya</nsme>
+<age>20</age>
+<city>Minsk</city>
+
