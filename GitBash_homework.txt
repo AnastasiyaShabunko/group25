@@ -47,17 +47,17 @@ git push
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 Нажать «изменить», и добавить текст
 { 
-    "bugs"
+    "bugs":
     [ 
         {
             "title": "mistake_in_the_title_on_the_main_page", 
-            "staps": "load_site", 
+            "steps": "load_site", 
             "ER": "title_is_spelled_correctly",
             "AR": "the_title_is_misspelled"
         }, 
         {
             "title": "link_Books_is_broken", 
-            "staps": {
+            "steps": {
                         "1": "load_site", 
                         "2": "click_on_the_link"
                           }
@@ -114,16 +114,16 @@ add file , create new file
     <bugs>
          <bug_1> 
             <title>mistake_in_the_title_on_the_main_page</title>
-            <staps>load_site</staps>
+            <steps>load_site</steps>
             <ER>title_is_spelled_correctly</ER>
             <AR>the_title_is_misspelled</AR>
          </bug_1>
          <bug_2>
             <title>link_Books_is_broken</title>
-            <staps>
+            <steps>
                         <1>load_site</1>
                         <2>click_on_the_link</2>
-             </staps>
+             </steps>
             <ER>link_works</ER>
             <AR>the_link_does_not_work</AR>
         </bug_2> 
